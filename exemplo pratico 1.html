@@ -1,17 +1,28 @@
-<!DOCTYPE HTML>
-<HTML>
-
-    <HEAD> 
-        <meta charset="uft-8">
-        <TITLE>uma página Silmples</TITLE>
-    </HEAD>
-    <body>
-        <h1>Bem-vindo a minha pagina web</h1>
-
-        <p>esta é uma págnina HTML simples.</p>
-
-        <p><i> este texto está no fromato itálico</i>.</p>
-
-        <p>Podemos modificar o conteúdo!</p>
-    </body>
-</HTML>
+<!doctype html>
+<html>
+  <head>
+		<title>Formulário HTML</title>
+  </head>  
+  <body>
+		<form>
+			<label for="nome">Nome: </label>
+			<input type="text" name="nome"  required>
+			<br>
+				<br>
+			<label for="email">Email: </label>
+			<input type="email" name="email"  required>
+			<br>
+			<label for="tel">Telefone: </label>
+			<input type="tel" name="telefone"  required>
+			<br>
+			<label for="nascimento">Data de Nascimento: </label>
+			<input type="date" name="nascimento"  required>
+			<br>
+			<label for="mensagem">Mensagem: </label>
+			<textarea name="mensagem" cols="30" rows="4"></textarea>
+			<br>
+			<input type="submit" value="Enviar">
+		</form>
+	
+  </body>
+</html>
